@@ -1,0 +1,88 @@
+{
+  "Metadata": {
+    "title": "KaceresDev · Software Engineer",
+    "description": "Portfolio of KaceresDev, software engineer. Web products, AI integrations, agents and full-stack development."
+  },
+  "Nav": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Stack",
+    "contact": "Contact",
+    "cta": "Let's talk",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "home": "Go to home",
+    "language": "Language"
+  },
+  "Hero": {
+    "greeting": "Hi, I'm",
+    "available": "Available for new projects",
+    "ctaProjects": "View projects",
+    "ctaCv": "View CV",
+    "scroll": "Scroll"
+  },
+  "About": {
+    "eyebrow": "About me",
+    "title": "I build intelligent software",
+    "location": "Location",
+    "stats": {
+      "years": "Years of experience",
+      "projects": "Projects delivered",
+      "technologies": "Technologies mastered",
+      "coffee": "Kilometers still to ride on motorcycle"
+    }
+  },
+  "Experience": {
+    "eyebrow": "Career",
+    "title": "Work experience",
+    "present": "Present"
+  },
+  "Projects": {
+    "eyebrow": "Portfolio",
+    "title": "Featured projects",
+    "subtitle": "A selection of work I've been part of, from the first idea to production.",
+    "featured": "Featured",
+    "all": "All",
+    "demo": "View web",
+    "code": "Code",
+    "categories": {
+      "web": "Web",
+      "mobile": "Mobile",
+      "backend": "Backend",
+      "opensource": "Open Source"
+    }
+  },
+  "Skills": {
+    "eyebrow": "Toolbox",
+    "title": "My tech stack",
+    "subtitle": "From frontend to cloud, including AI and agents: technologies I build with end to end."
+  },
+  "Contact": {
+    "eyebrow": "Contact",
+    "title": "Got a project in mind?",
+    "subtitle": "I'm open to new opportunities, collaborations or a chat about product, web and AI. Drop me a line and I'll get back to you as soon as possible.",
+    "copy": "Copy email",
+    "copied": "Copied!",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "you@email.com",
+      "message": "Message",
+      "messagePlaceholder": "Tell me about your project...",
+      "submit": "Send message",
+      "subject": "Contact from {name}'s portfolio"
+    }
+  },
+  "Footer": {
+    "rights": "All rights reserved.",
+    "builtWith": "Designed and developed by",
+    "backToTop": "Back to top"
+  },
+  "NotFound": {
+    "title": "Page not found",
+    "description": "The page you're looking for doesn't exist or has been moved.",
+    "back": "Back to home"
+  }
+}

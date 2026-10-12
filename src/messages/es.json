@@ -1,0 +1,88 @@
+{
+  "Metadata": {
+    "title": "KaceresDev · Ingeniero de Software",
+    "description": "Portfolio de KaceresDev, ingeniero de software. Productos web, integraciones con IA, agentes y desarrollo full-stack."
+  },
+  "Nav": {
+    "about": "Sobre mí",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "skills": "Stack",
+    "contact": "Contacto",
+    "cta": "Hablemos",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "home": "Ir al inicio",
+    "language": "Idioma"
+  },
+  "Hero": {
+    "greeting": "Hola, soy",
+    "available": "Disponible para nuevos proyectos",
+    "ctaProjects": "Ver proyectos",
+    "ctaCv": "Ver CV",
+    "scroll": "Desliza"
+  },
+  "About": {
+    "eyebrow": "Sobre mí",
+    "title": "Construyo software inteligente",
+    "location": "Ubicación",
+    "stats": {
+      "years": "Años de experiencia",
+      "projects": "Proyectos entregados",
+      "technologies": "Tecnologías dominadas",
+      "coffee": "Kilómetros pendientes en moto"
+    }
+  },
+  "Experience": {
+    "eyebrow": "Trayectoria",
+    "title": "Experiencia profesional",
+    "present": "Actualidad"
+  },
+  "Projects": {
+    "eyebrow": "Portfolio",
+    "title": "Proyectos destacados",
+    "subtitle": "Una selección de trabajos en los que he participado, desde la idea hasta producción.",
+    "featured": "Destacado",
+    "all": "Todos",
+    "demo": "Ver web",
+    "code": "Código",
+    "categories": {
+      "web": "Web",
+      "mobile": "Mobile",
+      "backend": "Backend",
+      "opensource": "Open Source"
+    }
+  },
+  "Skills": {
+    "eyebrow": "Herramientas",
+    "title": "Mi stack tecnológico",
+    "subtitle": "Del frontend a la nube, pasando por IA y agentes: tecnologías con las que construyo de principio a fin."
+  },
+  "Contact": {
+    "eyebrow": "Contacto",
+    "title": "¿Tienes un proyecto en mente?",
+    "subtitle": "Estoy abierto a nuevas oportunidades, colaboraciones o a hablar de producto, web e IA. Escríbeme y te responderé lo antes posible.",
+    "copy": "Copiar email",
+    "copied": "¡Copiado!",
+    "form": {
+      "name": "Nombre",
+      "namePlaceholder": "Tu nombre",
+      "email": "Email",
+      "emailPlaceholder": "tu@email.com",
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntame sobre tu proyecto...",
+      "submit": "Enviar mensaje",
+      "subject": "Contacto desde el portfolio de {name}"
+    }
+  },
+  "Footer": {
+    "rights": "Todos los derechos reservados.",
+    "builtWith": "Diseñado y desarrollado por",
+    "backToTop": "Volver arriba"
+  },
+  "NotFound": {
+    "title": "Página no encontrada",
+    "description": "La página que buscas no existe o se ha movido.",
+    "back": "Volver al inicio"
+  }
+}
