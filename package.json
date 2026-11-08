@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && node scripts/ensure-standalone-public.mjs",
     "start": "next start",
     "lint": "eslint",
-    "format": "prettier --write \"src/**/*.{ts,tsx,css,json}\""
+    "format": "prettier --write \"src/**/*.{ts,tsx,css,json}\"",
+    "deploy": "node scripts/deploy.mjs"
   },
   "dependencies": {
     "@react-three/fiber": "^9.8.1",

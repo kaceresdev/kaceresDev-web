@@ -4,6 +4,10 @@ import createNextIntlPlugin from "next-intl/plugin";
 const nextConfig: NextConfig = {
   cacheComponents: true,
   partialPrefetching: true,
+  // Ensure App Hosting / standalone tracing keeps all static assets (webp, pdf, …).
+  outputFileTracingIncludes: {
+    "/**": ["./public/**/*"],
+  },
   turbopack: {
     rules: {
       "*.css": {

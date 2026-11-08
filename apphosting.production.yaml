@@ -1,0 +1,28 @@
+# Production environment overrides for Firebase App Hosting.
+# Backend Environment name must be set to: production
+
+runConfig:
+  cpu: 1
+  memoryMiB: 512
+  concurrency: 80
+  minInstances: 0
+  maxInstances: 20
+
+outputFiles:
+  serverApp:
+    include:
+      - .
+
+env:
+  - variable: CONTACT_TO_EMAIL
+    value: kaceresdev@gmail.com
+    availability:
+      - RUNTIME
+  - variable: CONTACT_FROM_EMAIL
+    value: noreply@kaceres.dev
+    availability:
+      - RUNTIME
+  - variable: RESEND_API_KEY
+    secret: RESEND_API_KEY
+    availability:
+      - RUNTIME

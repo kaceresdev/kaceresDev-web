@@ -37,6 +37,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# local Firebase CLI config cache (sandbox workaround)
+.firebase-config/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

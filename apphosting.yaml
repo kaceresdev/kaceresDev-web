@@ -1,0 +1,27 @@
+# Default App Hosting config (safe fallback for all environments).
+# Production overrides live in apphosting.production.yaml
+
+runConfig:
+  cpu: 1
+  memoryMiB: 512
+  concurrency: 80
+  minInstances: 0
+  maxInstances: 10
+
+# Keep all build output (public/*.webp, *.pdf, etc.). Default optimization
+# was dropping non-PNG static assets from the Cloud Run bundle.
+outputFiles:
+  serverApp:
+    include:
+      - .
+
+env:
+  # Non-secret defaults; production file / secrets override as needed.
+  - variable: CONTACT_TO_EMAIL
+    value: kaceresdev@gmail.com
+    availability:
+      - RUNTIME
+  - variable: CONTACT_FROM_EMAIL
+    value: noreply@kaceres.dev
+    availability:
+      - RUNTIME
