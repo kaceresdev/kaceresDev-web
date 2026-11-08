@@ -3,74 +3,72 @@ import type { Experience } from "./types";
 // Dates in YYYY-MM format. Omit `end` for the current position.
 export const experience: Experience[] = [
   {
-    company: "TechNova",
-    companyUrl: "https://example.com",
-    role: { es: "Senior Software Engineer", en: "Senior Software Engineer" },
-    location: { es: "Madrid · Híbrido", en: "Madrid · Hybrid" },
-    start: "2023-03",
+    company: "Deloitte",
+    companyUrl: "https://www.deloitte.com",
+    role: { es: "Consultor", en: "Consultant" },
+    location: { es: "Madrid", en: "Madrid" },
+    start: "2023-07",
     summary: {
-      es: "Lidero el desarrollo del frontend de una plataforma SaaS B2B usada por más de 50.000 usuarios.",
-      en: "Leading frontend development of a B2B SaaS platform used by more than 50,000 users.",
+      es: "Gestión de equipos de desarrollo y mentorización de desarrolladores junior para la creación de aplicaciones modernas y migraciones de sistemas legacy.",
+      en: "Management of development teams and mentoring of junior developers for the creation of modern applications and legacy system migrations.",
     },
     achievements: {
       es: [
-        "Migración de la aplicación a Next.js App Router, reduciendo el LCP un 45%.",
-        "Diseño de un design system compartido entre 4 equipos de producto.",
-        "Mentorización de 3 desarrolladores junior y definición de buenas prácticas.",
+        "Gestión de equipos con metodologías ágiles y SCRUM.",
+        "Análisis, diseño y estimación de proyectos con herramientas como Jira y Confluence.",
+        "Diseño de procesos de automatización con IA para el desarrollo de aplicaciones y migraciones.",
       ],
       en: [
-        "Migrated the application to Next.js App Router, cutting LCP by 45%.",
-        "Designed a design system shared across 4 product teams.",
-        "Mentored 3 junior developers and defined engineering best practices.",
+        "Management of development teams with agile methodologies and SCRUM.",
+        "Mentoring of junior developers for the creation of modern applications and legacy system migrations.",
+        "Design of automation processes with AI for application and legacy system development.",
       ],
     },
-    stack: ["Next.js", "TypeScript", "React", "Tailwind CSS", "GraphQL", "AWS"],
+    stack: ["Jira", "Confluence", "Copilot", "GitHub"],
   },
   {
-    company: "Cloudly",
-    companyUrl: "https://example.com",
-    role: { es: "Full-Stack Developer", en: "Full-Stack Developer" },
-    location: { es: "Remoto", en: "Remote" },
-    start: "2021-01",
-    end: "2023-02",
-    summary: {
-      es: "Desarrollo de microservicios y paneles de administración para una startup de logística.",
-      en: "Built microservices and admin dashboards for a logistics startup.",
-    },
-    achievements: {
-      es: [
-        "Diseño de una API en Node.js que procesa más de 1M de eventos diarios.",
-        "Implantación de CI/CD con GitHub Actions y despliegues sin downtime.",
-        "Desarrollo de un panel en tiempo real con WebSockets.",
-      ],
-      en: [
-        "Designed a Node.js API processing more than 1M events per day.",
-        "Set up CI/CD with GitHub Actions and zero-downtime deployments.",
-        "Built a real-time dashboard using WebSockets.",
-      ],
-    },
-    stack: ["Node.js", "NestJS", "PostgreSQL", "Docker", "React", "Redis"],
-  },
-  {
-    company: "Studio Pixel",
+    company: "Deloitte",
+    companyUrl: "https://www.deloitte.com",
     role: { es: "Frontend Developer", en: "Frontend Developer" },
-    location: { es: "Valencia", en: "Valencia" },
-    start: "2019-06",
-    end: "2020-12",
+    location: { es: "Madrid", en: "Madrid" },
+    start: "2021-09",
+    end: "2023-06",
     summary: {
-      es: "Desarrollo de webs corporativas y e-commerce para clientes de distintos sectores.",
-      en: "Built corporate websites and e-commerce stores for clients across industries.",
+      es: "Participación en el desarrollo de webs de clientes, administración y pasarelas de pagos para clientes de sector retail.",
+      en: "Participation in the development of client websites, administration and payment gateways for retail sector clients.",
     },
     achievements: {
       es: [
-        "Entrega de más de 15 proyectos web con foco en rendimiento y accesibilidad.",
-        "Introducción de React y TypeScript en el flujo de trabajo del estudio.",
+        "Desarrollo de webs de clientes y administración para clientes de sector retail con Angular y Node.js.",
+        "Desarrollo de un sistema de pasarela de pagos robusto, escalable y personalizable para empresas de cualquier tamaño y sector.",
       ],
       en: [
-        "Delivered more than 15 web projects focused on performance and accessibility.",
-        "Introduced React and TypeScript into the studio's workflow.",
+        "Development of client websites and administration for retail sector clients with Angular and Node.js.",
+        "Development of a robust, scalable and customizable payment gateway for companies of any size and sector.",
       ],
     },
-    stack: ["React", "JavaScript", "SASS", "WordPress", "Shopify"],
+    stack: ["Angular", "Node.js", "MongoDB", "Oracle", "Redis", "Quve", "Kibana", "Jenkins", "Bitbucket", "Jira", "Confluence"],
+  },
+  {
+    company: "Propia",
+    role: { es: "Reacondicionador de sisteman electrónicos", en: "Electronic system reconditioner" },
+    location: { es: "Collado Villalba", en: "Collado Villalba" },
+    start: "2017-10",
+    end: "2021-10",
+    summary: {
+      es: "Reacondicionamiento de sistemas electrónicos para darles una segunda vida y reducir el impacto ambiental.",
+      en: "Reconditioning of electronic systems for reuse and reducing environmental impact.",
+    },
+    achievements: {
+      es: [
+        "Reacondicionamiento teléfonos móviles con cambios de pantalla, batería u otros elementos electrónicos.",
+        "Reparación de pequeños electrodomésticos como televisores, microondas, etc, para su reutilización.",
+      ],
+      en: [
+        "Reconditioning of mobile phones with changes of screen, battery or other electronic elements.",
+        "Repair of small appliances such as televisions, microwaves, etc, for reuse.",
+      ],
+    },
+    stack: ["Reparación de teléfonos móviles", "Reparación de pequeños electrodomésticos"],
   },
 ];

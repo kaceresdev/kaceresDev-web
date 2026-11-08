@@ -44,7 +44,7 @@ export async function About() {
             {/* Replace with <Image> using your photo in /public when available */}
             <div className="grid size-32 place-items-center rounded-full bg-gradient-brand p-[2px]">
               <div className="grid size-full place-items-center rounded-full bg-surface-2 font-display text-4xl font-bold">
-                <span className="text-gradient">{initials(profile.name)}</span>
+                <span className="text-gradient">{profile.initials}</span>
               </div>
             </div>
             <div>

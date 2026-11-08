@@ -66,7 +66,7 @@ export async function Contact() {
 
         <Reveal delay={0.2} className="lg:self-end">
           <Card className="p-6 [--border-opacity:0.35] sm:p-8">
-            <ContactForm email={profile.email} ownerName={profile.name} />
+            <ContactForm />
           </Card>
         </Reveal>
       </div>

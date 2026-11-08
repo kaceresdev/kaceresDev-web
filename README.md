@@ -1,6 +1,6 @@
 # KaceresDev Web
 
-**Portfolio interactivo de [KaceresDev](https://kaceres.dev)** — ingeniero de software full-stack.
+**Portfolio interactivo de [KaceresDev](https://kaceres.dev)** — ingeniero de software y Electrónica.
 
 Sitio de una sola página, bilingüe (ES / EN), con hero 3D, motion cuidadoso y contenido centralizado en datos tipados. Pensado para mostrar trayectoria, proyectos y stack sin sacrificar rendimiento ni detalles de UX.
 

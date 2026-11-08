@@ -16,6 +16,7 @@ export interface Stat {
 }
 
 export interface Profile {
+  initials: string;
   name: string;
   shortName: string;
   role: Localized;
@@ -51,6 +52,8 @@ export interface Project {
   category: ProjectCategory;
   stack: string[];
   demoUrl?: string;
+  /** Overrides the default “Ver web” / “View web” CTA label. */
+  demoLabel?: Localized;
   repoUrl?: string;
   featured?: boolean;
   year: number;

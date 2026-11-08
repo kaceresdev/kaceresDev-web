@@ -16,6 +16,7 @@ type Filter = ProjectCategory | "all";
 
 function ProjectLinks({ project }: { project: Project }) {
   const t = useTranslations("Projects");
+  const locale = useLocale();
   const linkClass =
     "relative z-10 inline-flex items-center gap-1.5 text-sm text-muted transition-colors duration-300 hover:text-fg";
 
@@ -23,7 +24,7 @@ function ProjectLinks({ project }: { project: Project }) {
     <div className="flex items-center gap-5">
       {project.demoUrl && (
         <a href={project.demoUrl} target="_blank" rel="noopener noreferrer" className={linkClass}>
-          {t("demo")}
+          {project.demoLabel?.[locale] ?? t("demo")}
           <ArrowUpRight className="size-4" />
         </a>
       )}

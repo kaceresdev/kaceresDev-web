@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "title": "KaceresDev · Ingeniero de Software",
+    "title": "KaceresDev · Ingeniero de Software y Electrónica",
     "description": "Portfolio de KaceresDev, ingeniero de software. Productos web, integraciones con IA, agentes y desarrollo full-stack."
   },
   "Nav": {
@@ -41,7 +41,7 @@
   "Projects": {
     "eyebrow": "Portfolio",
     "title": "Proyectos destacados",
-    "subtitle": "Una selección de trabajos en los que he participado, desde la idea hasta producción.",
+    "subtitle": "Una sección de trabajos personales que he desarrollado, desde la idea hasta la implantación en producción.",
     "featured": "Destacado",
     "all": "Todos",
     "demo": "Ver web",
@@ -72,6 +72,9 @@
       "message": "Mensaje",
       "messagePlaceholder": "Cuéntame sobre tu proyecto...",
       "submit": "Enviar mensaje",
+      "sending": "Enviando…",
+      "success": "Mensaje enviado. Te responderé lo antes posible.",
+      "error": "No se pudo enviar el mensaje. Inténtalo de nuevo o escríbeme por email.",
       "subject": "Contacto desde el portfolio de {name}"
     }
   },

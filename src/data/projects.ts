@@ -43,4 +43,30 @@ export const projects: Project[] = [
     demoUrl: "https://dashboard.sierahm.com/",
     year: 2026,
   },
+  {
+    slug: "sierah-entry-manager-bot",
+    title: "Sierah Entry Manager Bot",
+    description: {
+      es: "Bot de Telegram para el control de acceso a la comunidad privada de Sierah: gestiona el flujo de entrada a la comunidad privada de forma automatizada.",
+      en: "Telegram bot for access control to Sierah's private community: handles onboarding, permissions and entry to the private web in an automated flow.",
+    },
+    category: "backend",
+    stack: ["Node.js", "JavaScript", "Telegram Bot API", "Firebase", "Supabase"],
+    demoUrl: "https://t.me/sierahentrymanager_bot",
+    demoLabel: { es: "Ver Bot", en: "View Bot" },
+    year: 2026,
+  },
+  {
+    slug: "simular-prestamo",
+    title: "SimularPréstamo.NET",
+    image: "/projects/simular-prestamo.webp",
+    description: {
+      es: "Simulador de préstamos (personal, coche, hipoteca y reforma): cuota, tabla de amortización, comisiones, seguros y comparación con TAE del banco. Permite guardar y recuperar simulaciones con un código compartible.",
+      en: "Loan simulator (personal, car, mortgage and renovation): payment, amortization schedule, fees, insurance and bank APR comparison. Lets you save and reopen simulations with a shareable code.",
+    },
+    category: "web",
+    stack: ["Next.js", "TypeScript", "Supabase", "IA", "Firebase Firestore", "Firebase Hosting"],
+    demoUrl: "https://simularprestamo.net/",
+    year: 2026,
+  },
 ];
